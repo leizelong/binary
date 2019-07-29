@@ -1,6 +1,6 @@
 {
   "name": "binary",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "JavaScript 10进制数的原码，反码，补码",
   "main": "index.js",
   "repository": "https://github.com/leizelong/binary.git",
