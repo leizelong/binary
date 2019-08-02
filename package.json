@@ -21,6 +21,9 @@
   "homepage": "https://github.com/leizelong/binary#readme",
   "keywords": [
     "JavaScript",
-    "10进制数的原码，反码，补码"
+    "10进制数的原码，反码，补码",
+    "complement",
+    "trueForm",
+    "inverse"
   ]
 }
