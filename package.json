@@ -1,6 +1,6 @@
 {
   "name": "@leizl/binary",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "JavaScript 10进制数的原码，反码，补码",
   "main": "index.js",
   "repository": {
