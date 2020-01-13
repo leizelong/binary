@@ -57,7 +57,7 @@ class Binary {
     const validTwoComplete = toFixed(
       validTenComplete.toString(2),
       this.length,
-      1,
+      1
     );
     return validTwoComplete;
   }

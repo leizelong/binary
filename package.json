@@ -1,8 +1,8 @@
 {
   "name": "@leizl/binary",
-  "version": "0.0.2",
+  "version": "0.0.3-rc1",
   "description": "JavaScript 10进制数的原码，反码，补码",
-  "main": "index.js",
+  "main": "./dist/binary.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/leizelong/binary.git"
@@ -13,7 +13,9 @@
   ],
   "license": "MIT",
   "scripts": {
-    "start": "tsc --lib es6,dom index.ts && node index.js"
+    "start": "tsc --lib es6,dom index.ts && node index.js",
+    "test": "jest",
+    "prepublishOnly": "./node_modules/typescript/bin/tsc"
   },
   "bugs": {
     "url": "https://github.com/leizelong/binary/issues"
@@ -25,5 +27,18 @@
     "complement",
     "trueForm",
     "inverse"
-  ]
+  ],
+  "devDependencies": {
+    "@babel/core": "^7.8.0",
+    "@babel/preset-env": "^7.8.2",
+    "@babel/preset-typescript": "^7.8.0",
+    "@babel/types": "^7.8.0",
+    "@types/jest": "^24.0.25",
+    "babel-jest": "^24.9.0",
+    "jest": "^24.9.0",
+    "ts-jest": "^24.3.0",
+    "typescript": "^3.7.4",
+    "jest-diff": "^24.9.0"
+  },
+  "dependencies": {}
 }
