@@ -1,3 +1,8 @@
+![NPM](https://img.shields.io/npm/l/@leizl/binary)
+![npm (scoped)](https://img.shields.io/npm/v/@leizl/binary)
+![npm](https://img.shields.io/npm/dt/@leizl/binary)
+![npm](https://img.shields.io/npm/dm/@leizl/binary)
+
 # JavaScript 10 进制数的 原码，反码，补码
 
 ## 原码, 反码, 补码的基础概念和计算方法
